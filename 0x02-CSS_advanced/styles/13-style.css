@@ -41,20 +41,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a:not(:empty) {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
 
-a:not(:empty):visited {
+a:link:visited {
     font-style: italic;
 }
 
-a:not(:empty):hover {
+a:link:hover {
     text-decoration: underline;
 }
 
-a:not(:empty):active {
+a:link:active {
     background-color: var(--color-light-grey);
 }
 
