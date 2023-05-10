@@ -198,7 +198,8 @@ ul .row {
     text-align: right;
 }
 
-[data-section-theme=“dark”] {
+header[data-section-theme=“dark”],
+section[data-section-theme] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
