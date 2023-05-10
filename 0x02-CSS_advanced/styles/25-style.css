@@ -262,10 +262,3 @@ ul .row {
     background-color: var(--color-primary);
     text-decoration: none;
 }
-
-header[data-section-theme=“dark”],
-section[data-section-theme] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background-color: var(--color-black);
-}
