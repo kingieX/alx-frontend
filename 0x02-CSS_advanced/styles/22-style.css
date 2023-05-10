@@ -157,6 +157,7 @@ a:active {
 .nav .nav-link {
     display: block;
     padding: calc(0.5 * 1rem) 1rem;
+    color: var(--color-white);
 }
 
 .nav .nav-link:hover {
